@@ -7,3 +7,7 @@
 # Ignore files left by autoconf
 config.log
 config.status
+
+# Configuration files left out of the repo
+/gfx-config
+/include/gfx/config.h
