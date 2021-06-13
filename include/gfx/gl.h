@@ -21,6 +21,8 @@
 #endif
 
 #if defined(__APPLE__)
+// Silence Apple's OpenGL deprecation warning
+#  define GL_SILENCE_DEPRECATION 1
 #  include <OpenGL/gl.h>
 #  include <OpenGL/glu.h>
 #else
