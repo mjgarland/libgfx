@@ -1,0 +1,9 @@
+# Kinds of files to always ignore
+*.out
+*.o
+*.dep
+*.a
+
+# Ignore files left by autoconf
+config.log
+config.status
